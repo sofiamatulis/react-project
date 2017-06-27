@@ -9,12 +9,22 @@
 
 // Silent . Code that is declared in other files hasnt access to other files, unless we explicitely say it
 
+// 1 component per file
+
 
 import React from 'react';
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom';
+
+import SearchBar from './components/search_bar';
+
+const API_KEY = 'AIzaSyAvC6dKvqNUfAt0pFeo1Jqm78EuZMmSzKw';
 
 const App = () => {
-  return <div> Hi! </div>;
+  return (
+    <div>
+      <SearchBar />
+     </div>
+  );
 }
 
 // instantiate the component, before you pass it to the DOM
