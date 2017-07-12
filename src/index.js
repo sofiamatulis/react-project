@@ -11,6 +11,12 @@
 
 // 1 component per file
 
+// What is redux? a predictable state container for javascript applications
+// centralize everything in a single object (the state)
+// no collections of data
+//redux keeps track of the state
+// How to model and design your state
+
 import _ from 'lodash';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
